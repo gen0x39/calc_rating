@@ -48,6 +48,6 @@ def calc_rate(path):
     pprint.pprint(incomplete_list, indent=1)
 
 if __name__ == "__main__":
-    path = 'chunithm_rate.csv'
+    path = 'chunithm_silver_rate.csv'
     sort_rate(path)
     calc_rate(path)
